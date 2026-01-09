@@ -45,5 +45,7 @@ export class App implements OnInit {
       new Date(),
       12
     );
+    this.mySnap.setLocation("Paris");
+    this.mySnap3.setLocation("Londres");
   }
 }
