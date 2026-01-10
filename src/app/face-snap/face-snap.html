@@ -13,7 +13,7 @@
             <button (click)="onAddSnaps()" class="button">
                 <i [ngClass]="iconClass"></i>
             </button>
-            {{ faceSnap.snaps }}
+            <span [ngStyle]="{color: 'rgb('+ faceSnap.snaps + ', 0, 0)'}">{{ faceSnap.snaps }}</span>
         </p>
     </div>
 </div>

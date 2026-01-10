@@ -1,16 +1,17 @@
 .face-snap-card {
     justify-content: center;
-    margin-bottom: 10px;
-    min-width: 350px;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px 30px;
+    box-shadow: lightgray 4px 4px 20px;
     border: 1px solid #969191;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 2px 2px 10px #070707;
     background-color: white;
     text-align: center;
     img {
-      width: 60%;
-      height: 400px;
+      width: 100%;
     }
     button {
       background-color: transparent;
